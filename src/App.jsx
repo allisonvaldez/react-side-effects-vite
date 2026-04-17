@@ -43,10 +43,11 @@ function App() {
       {/* Pass the necessary props to JokeDisplay */}
       <JokeDisplay joke={joke} loading={loading} />
 
-      {/* Step 5: Pass the function to FetchButton so it can fetch a new joke on click */}
-      <FetchButton onClick={fetchJoke} />
+      {/* Pass the function to FetchButton so it can fetch a new joke on click */}
+      <FetchButton fetchJoke={fetchJoke} />
     </div>
   )
 }
 
+// Make globally available
 export default App
