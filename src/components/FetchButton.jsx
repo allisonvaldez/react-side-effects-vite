@@ -1,4 +1,4 @@
-// Step 1: Accept `fetchJoke` as a prop
+// Accept `fetchJoke` as a prop
 
 const FetchButton = ({ fetchJoke }) => {
   return (

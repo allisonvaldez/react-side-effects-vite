@@ -1,4 +1,5 @@
-// Step 1: Accept `joke` and `loading` as props
+// Accept `joke` and `loading` as props
+
 
 const JokeDisplay = ({ joke, loading }) => {
   return (
