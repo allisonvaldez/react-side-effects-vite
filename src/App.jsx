@@ -1,4 +1,4 @@
-// Import necessary staes, effects, and components
+// Import necessary states, effects, and components
 import { useState, useEffect } from 'react'
 import JokeDisplay from './components/JokeDisplay'
 import FetchButton from './components/FetchButton'
